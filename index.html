@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- encabezado de la página -->
+    <nav class="navbar navbar-light  colorFondo">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Proyecto Final</span>
+        </div>
+    </nav>
+
+    <!-- contenido de la pagina (productos) -->
+    <section id="section" class="row w-100 mx-auto text-center text-light pt-5">
+        <h1 class="p-3 fs-1 border-top border-3">Personajes de Rick & Morty</h1>
+        <div id="divPersonajes" class="container-fluid row productos-fondo">
+        </div>
+    </section>
+
+    <!-- agregado al carrito -->
+    <section class="text-light mt-3 w-75 mx-auto carrito">
+        <div class="row pt-2 pb-2">
+            <h2 class="col fs-3 text-light texto-total-carrito">Agregado al carrito:</h2>
+            <h2 class="col fs-3 text-light" id="cuentaTotal"></h2>
+            <button type="button" class="btn btn-danger col w-50" id="btnVaciar">Vaciar carrito</button>
+        </div>
+        
+        <div class="w-100 mx-auto" id="total"></div>
+    </section>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- alertas -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- mis archivos js -->
+    <script src="./JS/clase.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
