@@ -13,7 +13,7 @@ class RickyMorty{
     };
     alertaSinStock() {
         Swal.fire({
-            title: 'No hay mas Stock',
+            title: 'No hay mas stock',
             text: 'No es posible agregar al carrito',
             width: 300,
             icon: 'error',

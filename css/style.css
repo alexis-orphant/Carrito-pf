@@ -30,3 +30,7 @@ body{
 .comprado{
     border-top: 2px solid white;
 }
+
+.btnX{
+    width: 25px !important;
+}
